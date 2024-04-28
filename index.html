@@ -13,32 +13,15 @@
         </div>
     </header>
     
-
-    <div id="popup" class="popup">
-        <div class="popup-content">
-            <div class="popup-header">
-                <h2>Welcome to Our Site!</h2>
-                <button id="closePopup">&times;</button>
-            </div>
-            <div class="popup-body">
-                <p>This is a browser based site and your selections will stay save as long as you don't delete your browser cache/history. Have fun while collecting &#9786;</p>
-            </div>
-            <div class="popup-footer">
-                <button id="closePopup" class="btn-close">Close</button>
-            </div>
-        </div>
-    </div>
-    
     <div class="group">
         <button onclick="generatePDF()">Export Missing Stickers as PDF</button>
 
-
+        
         <!-- UEFA-->
 <h2 onclick="toggleVisibility('uefaContent')">UEFA Stickers &#x25BC;</h2>
 <div class="countries-container" id="uefaContent"style="display: none;">
         <!-- UEFA -->
     <div class="country-section" id="Uefa">
-        <h3>UEFA Stickers</h3>
         <div class="sticker-list">
             <span class="sticker" data-value="TOPPSLOGO">TOPPS Logo</span>
             <span class="sticker" data-value="UEFA1">UEFA1</span>
@@ -53,7 +36,6 @@
 <div class="countries-container" id="stadiumContent"style="display: none;">
         <!-- Stadiums -->
     <div class="country-section" id="Stadium">
-        <h3>Stadiums</h3>
         <div class="sticker-list">
             <span class="sticker" data-value="EURO1">EURO1</span></br>
             <span class="sticker" data-value="EURO2">EURO2</span>
@@ -66,6 +48,29 @@
             <span class="sticker" data-value="EURO9">EURO9</span>
             <span class="sticker" data-value="EURO10">EURO10</span>
             <span class="sticker" data-value="EURO11">EURO11</span>
+        </div>
+    </div>
+</div>
+
+<!-- group Stickers-->
+<h2 onclick="toggleVisibility('grouppicContent')">Group Stickers &#x25BC;</h2>
+<div class="countries-container" id="grouppicContent"style="display: none;">
+        <!-- group stickers -->
+    <div class="country-section" id="grouppic">
+        
+        <div class="sticker-list">
+            <span class="sticker" id="GA1">GA1</span>
+            <span class="sticker" id="GA2">GA2</span>
+            <span class="sticker" id="GB1">GB1</span>
+            <span class="sticker" id="GB2">GB2</span>
+            <span class="sticker" id="GC1">GC1</span>
+            <span class="sticker" id="GC2">GC2</span>
+            <span class="sticker" id="GD1">GD1</span>
+            <span class="sticker" id="GD2">GD2</span>
+            <span class="sticker" id="GE1">GE1</span>
+            <span class="sticker" id="GE2">GE2</span>
+            <span class="sticker" id="GF1">GF1</span>
+            <span class="sticker" id="GF2">GF2</span>
         </div>
     </div>
 </div>
@@ -1073,6 +1078,28 @@
     </div>
 
     </div>
+
+    <!-- Legends-->
+    <h2 onclick="toggleVisibility('legendContent')">Legends &#x25BC;</h2>
+    <div class="countries-container" id="legendContent"style="display: none;">
+            <!-- Legends -->
+        <div class="country-section" id="legends">
+            <h3>Legends</h3>
+            <div class="sticker-list">
+                <span class="sticker" data-value="LEG1">LEG1</span>
+                <span class="sticker" data-value="LEG2">LEG2</span>
+                <span class="sticker" data-value="LEG3">LEG3</span>
+                <span class="sticker" data-value="LEG4">LEG4</span>
+                <span class="sticker" data-value="LEG5">LEG5</span>
+                <span class="sticker" data-value="LEG6">LEG6</span>
+                <span class="sticker" data-value="LEG7">LEG7</span>
+                <span class="sticker" data-value="LEG8">LEG8</span>
+                <span class="sticker" data-value="LEG9">LEG9</span>
+                <span class="sticker" data-value="LEG10">LEG10</span>
+            </div>
+        </div>
+    </div>
+
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
 
