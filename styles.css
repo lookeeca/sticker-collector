@@ -1,0 +1,304 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background: #96c3ff;
+}
+header {
+    background-color: #1f47dd;
+    color: white;
+    padding: 100px;
+    text-align: center;
+    border-radius: 10px;
+    background-image: url('/img/euro2024.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.popup-content {
+    text-align: center;
+}
+
+.popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.popup-header h2 {
+    margin: 0;
+}
+
+.popup-header button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.popup-body p {
+    margin: 0;
+}
+
+.popup-footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.group h2 {
+    cursor: pointer;
+    background-color: #677dff;
+    color: rgb(252, 252, 252);
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.group h2:hover {
+    background-color: #5068ec;
+}
+
+
+.countries-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust gap size to manage spacing between boxes */
+    margin-top: 20px; /* Space between the header and the country boxes */
+}
+
+.country-section {
+    flex: 1 1 calc(25% - 20px); /* Adjust for the gap to fit exactly four items per row */
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    box-sizing: border-box; /* Crucial to include padding and border in the width */
+}
+
+.country-section h3 {
+    color: #2C3E50;
+    border-bottom: 1px solid #ecf0f1;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.playoff-section {
+    display: flex;  /* Activates flexbox layout */
+    flex-wrap: wrap;  /* Allows items to wrap onto the next line if needed */
+    justify-content: space-between;  /* Distributes space between the items */
+    align-items: flex-start;  /* Aligns items to the top of the container */
+    box-sizing: border-box; /* Crucial to include padding and border in the width */
+    gap: 20px;
+}
+
+.sticker-list .sticker {
+    display: inline-block;
+    width: 60px;
+    padding: 10px 15px;
+    margin: 5px;
+    background: #ecf0f1;
+    color:#888888;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+/* gold 1 */
+.sticker[data-value="GER1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+.sticker[data-value="SCO1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+.sticker[data-value="HUN1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+.sticker[data-value="SUI1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+.sticker[data-value="ESP1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+.sticker[data-value="CRO1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+.sticker[data-value="ITA1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+.sticker[data-value="ALB1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+.sticker[data-value="SLO1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+.sticker[data-value="DEN1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+.sticker[data-value="SRB1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+.sticker[data-value="ENG1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+.sticker[data-value="POL1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+
+.sticker[data-value="EST1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+
+.sticker[data-value="WAL1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+
+.sticker[data-value="FIN1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+
+.sticker[data-value="NED1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+
+.sticker[data-value="AUT1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+
+.sticker[data-value="FRA1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+.sticker[data-value="BEL1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+.sticker[data-value="SVK1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+.sticker[data-value="ROM1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+.sticker[data-value="ISR1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+.sticker[data-value="ICE1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+.sticker[data-value="BIH1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+.sticker[data-value="UKR1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+.sticker[data-value="TUR1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+.sticker[data-value="GEO1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+.sticker[data-value="LUX1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+.sticker[data-value="GRE1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+.sticker[data-value="KAZ1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+.sticker[data-value="POR1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+.sticker[data-value="CZE1"] {
+    background-color: gold;
+    color: rgb(255, 255, 255);
+}
+
+.sticker.selected {
+    background-color: #27ae60;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+
+
+button {
+    display: block;
+    width: auto;
+    padding: 10px 20px;
+    background-color: #fc3535;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+button:hover {
+    background-color: #df1f1f;
+}
+
+/* footer
+==================================================*/
+
+footer {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.copyright {
+    color: #ffffff;
+    margin-bottom: 0;
+}

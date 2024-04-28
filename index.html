@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sticker Checklist - UEFA Euro 2024</title>
+    <link rel="icon" type="image/png" href="/img/fav.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 style="font-size: 80px;">Sticker Checklist</h1>
+        </div>
+    </header>
+    
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <div class="popup-header">
+                <h2>Welcome to Our Site!</h2>
+                <button id="closePopup">&times;</button>
+            </div>
+            <div class="popup-body">
+                <p>This is a browser based site and your selections will stay save as long as you don't delete your browser cache/history. Have fun while collecting &#9786;</p>
+            </div>
+            <div class="popup-footer">
+                <button id="closePopup" class="btn-close">Close</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="group">
+        <button onclick="generatePDF()">Export Missing Stickers as PDF</button>
+
+
+        <!-- UEFA-->
+<h2 onclick="toggleVisibility('uefaContent')">UEFA Stickers &#x25BC;</h2>
+<div class="countries-container" id="uefaContent"style="display: none;">
+        <!-- UEFA -->
+    <div class="country-section" id="Uefa">
+        <h3>UEFA Stickers</h3>
+        <div class="sticker-list">
+            <span class="sticker" data-value="TOPPSLOGO">TOPPS Logo</span>
+            <span class="sticker" data-value="UEFA1">UEFA1</span>
+            <span class="sticker" data-value="UEFA2">UEFA2</span>
+            <span class="sticker" data-value="UEFA3">UEFA3</span>
+        </div>
+    </div>
+</div>
+
+        <!-- Stadiums-->
+<h2 onclick="toggleVisibility('stadiumContent')">Stadiums &#x25BC;</h2>
+<div class="countries-container" id="stadiumContent"style="display: none;">
+        <!-- Stadiums -->
+    <div class="country-section" id="Stadium">
+        <h3>Stadiums</h3>
+        <div class="sticker-list">
+            <span class="sticker" data-value="EURO1">EURO1</span></br>
+            <span class="sticker" data-value="EURO2">EURO2</span>
+            <span class="sticker" data-value="EURO3">EURO3</span>
+            <span class="sticker" data-value="EURO4">EURO4</span>
+            <span class="sticker" data-value="EURO5">EURO5</span>
+            <span class="sticker" data-value="EURO6">EURO6</span>
+            <span class="sticker" data-value="EURO7">EURO7</span>
+            <span class="sticker" data-value="EURO8">EURO8</span>
+            <span class="sticker" data-value="EURO9">EURO9</span>
+            <span class="sticker" data-value="EURO10">EURO10</span>
+            <span class="sticker" data-value="EURO11">EURO11</span>
+        </div>
+    </div>
+</div>
+
+        <!-- GROUP A-->
+        <h2 onclick="toggleVisibility('groupAContent')">Group A &#x25BC;</h2>
+        <div class="countries-container" id="groupAContent"style="display: none;">
+            <div class="country-section" id="Germany">
+                <h3>Germany</h3>
+                <div class="sticker-list">
+                    <span class="sticker" data-value="GERP1">P1</span>
+                    <span class="sticker" data-value="GERP2">P2</span></br>
+                    <span class="sticker" data-value="GERPTW">PTW</span>
+                    <span class="sticker" data-value="GERSP">SP</span>
+                    <span class="sticker" data-value="GERTOP1">TOP1</span>
+                    <span class="sticker" data-value="GERTOP2">TOP2</span> </br>
+                    <span class="sticker" data-value="GER1">GER1</span>
+                    <span class="sticker" data-value="GER2">GER2</span>
+                    <span class="sticker" data-value="GER3">GER3</span>
+                    <span class="sticker" data-value="GER4">GER4</span>
+                    <span class="sticker" data-value="GER5">GER5</span>
+                    <span class="sticker" data-value="GER6">GER6</span>
+                    <span class="sticker" data-value="GER7">GER7</span>
+                    <span class="sticker" data-value="GER8">GER8</span>
+                    <span class="sticker" data-value="GER9">GER9</span>
+                    <span class="sticker" data-value="GER10">GER10</span>
+                    <span class="sticker" data-value="GER11">GER11</span>
+                    <span class="sticker" data-value="GER12">GER12</span>
+                    <span class="sticker" data-value="GER13">GER13</span>
+                    <span class="sticker" data-value="GER14">GER14</span>
+                    <span class="sticker" data-value="GER15">GER15</span>
+                    <span class="sticker" data-value="GER16">GER16</span>
+                    <span class="sticker" data-value="GER17">GER17</span>
+                    <span class="sticker" data-value="GER18">GER18</span>
+                    <span class="sticker" data-value="GER19">GER19</span>
+                    <span class="sticker" data-value="GER20">GER20</span>
+                    <span class="sticker" data-value="GER21">GER21</span>
+                </div>
+            </div>
+    
+            <!-- Scotland -->
+            <div class="country-section" id="Scotland">
+                <h3>Scotland</h3>
+                <div class="sticker-list">
+                    <span class="sticker" data-value="SCOP1">P1</span>
+                    <span class="sticker" data-value="SCOP2">P2</span></br>
+                    <span class="sticker" data-value="SCOPTW">PTW</span>
+                    <span class="sticker" data-value="SCOSP">SP</span>
+                    <span class="sticker" data-value="SCOTOP1">TOP1</span>
+                    <span class="sticker" data-value="SCOTOP2">TOP2</span></br>
+                    <span class="sticker" data-value="SCO1">SCO1</span>
+                    <span class="sticker" data-value="SCO2">SCO2</span>
+                    <span class="sticker" data-value="SCO3">SCO3</span>
+                    <span class="sticker" data-value="SCO4">SCO4</span>
+                    <span class="sticker" data-value="SCO5">SCO5</span>
+                    <span class="sticker" data-value="SCO6">SCO6</span>
+                    <span class="sticker" data-value="SCO7">SCO7</span>
+                    <span class="sticker" data-value="SCO8">SCO8</span>
+                    <span class="sticker" data-value="SCO9">SCO9</span>
+                    <span class="sticker" data-value="SCO10">SCO10</span>
+                    <span class="sticker" data-value="SCO11">SCO11</span>
+                    <span class="sticker" data-value="SCO12">SCO12</span>
+                    <span class="sticker" data-value="SCO13">SCO13</span>
+                    <span class="sticker" data-value="SCO14">SCO14</span>
+                    <span class="sticker" data-value="SCO15">SCO15</span>
+                    <span class="sticker" data-value="SCO16">SCO16</span>
+                    <span class="sticker" data-value="SCO17">SCO17</span>
+                    <span class="sticker" data-value="SCO18">SCO18</span>
+                    <span class="sticker" data-value="SCO19">SCO19</span>
+                    <span class="sticker" data-value="SCO20">SCO20</span>
+                    <span class="sticker" data-value="SCO21">SCO21</span>
+                </div>
+            </div>
+    
+            <!-- Hungary -->
+            <div class="country-section" id="Hungary">
+                <h3>Hungary</h3>
+                <div class="sticker-list">
+                    <span class="sticker" data-value="HUNP1">P1</span>
+                    <span class="sticker" data-value="HUNP2">P2</span></br>
+                    <span class="sticker" data-value="HUNPTW">PTW</span>
+                    <span class="sticker" data-value="HUNSP">SP</span>
+                    <span class="sticker" data-value="HUNTOP1">TOP1</span>
+                    <span class="sticker" data-value="HUNTOP2">TOP2</span></br>
+                    <span class="sticker" data-value="HUN1">HUN1</span>
+                    <span class="sticker" data-value="HUN2">HUN2</span>
+                    <span class="sticker" data-value="HUN3">HUN3</span>
+                    <span class="sticker" data-value="HUN4">HUN4</span>
+                    <span class="sticker" data-value="HUN5">HUN5</span>
+                    <span class="sticker" data-value="HUN6">HUN6</span>
+                    <span class="sticker" data-value="HUN7">HUN7</span>
+                    <span class="sticker" data-value="HUN8">HUN8</span>
+                    <span class="sticker" data-value="HUN9">HUN9</span>
+                    <span class="sticker" data-value="HUN10">HUN10</span>
+                    <span class="sticker" data-value="HUN11">HUN11</span>
+                    <span class="sticker" data-value="HUN12">HUN12</span>
+                    <span class="sticker" data-value="HUN13">HUN13</span>
+                    <span class="sticker" data-value="HUN14">HUN14</span>
+                    <span class="sticker" data-value="HUN15">HUN15</span>
+                    <span class="sticker" data-value="HUN16">HUN16</span>
+                    <span class="sticker" data-value="HUN17">HUN17</span>
+                    <span class="sticker" data-value="HUN18">HUN18</span>
+                    <span class="sticker" data-value="HUN19">HUN19</span>
+                    <span class="sticker" data-value="HUN20">HUN20</span>
+                    <span class="sticker" data-value="HUN21">HUN21</span>
+                </div>
+            </div>
+
+            <div class="country-section" id="Switzerland">
+                <h3>Switzerland</h3>
+                <div class="sticker-list">
+                    <!-- Switzerland stickers SUI1 to SUI21 -->
+                    <span class="sticker" data-value="SUIP1">P1</span>
+                    <span class="sticker" data-value="SUIP2">P2</span></br>
+                    <span class="sticker" data-value="SUIPTW">PTW</span>
+                    <span class="sticker" data-value="SUISP">SP</span>
+                    <span class="sticker" data-value="SUITOP1">TOP1</span>
+                    <span class="sticker" data-value="SUITOP2">TOP2</span></br>
+                    <span class="sticker" data-value="SUI1">SUI1</span>
+                    <span class="sticker" data-value="SUI2">SUI2</span>
+                    <span class="sticker" data-value="SUI3">SUI3</span>
+                    <span class="sticker" data-value="SUI4">SUI4</span>
+                    <span class="sticker" data-value="SUI5">SUI5</span>
+                    <span class="sticker" data-value="SUI6">SUI6</span>
+                    <span class="sticker" data-value="SUI7">SUI7</span>
+                    <span class="sticker" data-value="SUI8">SUI8</span>
+                    <span class="sticker" data-value="SUI9">SUI9</span>
+                    <span class="sticker" data-value="SUI10">SUI10</span>
+                    <span class="sticker" data-value="SUI11">SUI11</span>
+                    <span class="sticker" data-value="SUI12">SUI12</span>
+                    <span class="sticker" data-value="SUI13">SUI13</span>
+                    <span class="sticker" data-value="SUI14">SUI14</span>
+                    <span class="sticker" data-value="SUI15">SUI15</span>
+                    <span class="sticker" data-value="SUI16">SUI16</span>
+                    <span class="sticker" data-value="SUI17">SUI17</span>
+                    <span class="sticker" data-value="SUI18">SUI18</span>
+                    <span class="sticker" data-value="SUI19">SUI19</span>
+                    <span class="sticker" data-value="SUI20">SUI20</span>
+                    <span class="sticker" data-value="SUI21">SUI21</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- GROUP B-->
+        <h2 onclick="toggleVisibility('groupBContent')">Group B &#x25BC;</h2>
+    <div class="countries-container" id="groupBContent" style="display: none;">
+        <!-- Spain -->
+        <div class="country-section" id="Spain">
+            <h3>Spain</h3>
+            <div class="sticker-list">
+                <span class="sticker" data-value="ESPP1">P1</span>
+                <span class="sticker" data-value="ESPP2">P2</span><br>
+                <span class="sticker" data-value="ESPTW">PTW</span>
+                <span class="sticker" data-value="ESPS">SP</span>
+                <span class="sticker" data-value="ESPTOP1">TOP1</span>
+                <span class="sticker" data-value="ESPTOP2">TOP2</span><br>
+                <span class="sticker" data-value="ESP1">ESP1</span>
+                <span class="sticker" data-value="ESP2">ESP2</span>
+                <span class="sticker" data-value="ESP3">ESP3</span>
+                <span class="sticker" data-value="ESP4">ESP4</span>
+                <span class="sticker" data-value="ESP5">ESP5</span>
+                <span class="sticker" data-value="ESP6">ESP6</span>
+                <span class="sticker" data-value="ESP7">ESP7</span>
+                <span class="sticker" data-value="ESP8">ESP8</span>
+                <span class="sticker" data-value="ESP9">ESP9</span>
+                <span class="sticker" data-value="ESP10">ESP10</span>
+                <span class="sticker" data-value="ESP11">ESP11</span>
+                <span class="sticker" data-value="ESP12">ESP12</span>
+                <span class="sticker" data-value="ESP13">ESP13</span>
+                <span class="sticker" data-value="ESP14">ESP14</span>
+                <span class="sticker" data-value="ESP15">ESP15</span>
+                <span class="sticker" data-value="ESP16">ESP16</span>
+                <span class="sticker" data-value="ESP17">ESP17</span>
+                <span class="sticker" data-value="ESP18">ESP18</span>
+                <span class="sticker" data-value="ESP19">ESP19</span>
+                <span class="sticker" data-value="ESP20">ESP20</span>
+                <span class="sticker" data-value="ESP21">ESP21</span>
+            </div>
+        </div>
+
+        <!-- Croatia -->
+        <div class="country-section" id="Croatia">
+            <h3>Croatia</h3>
+            <div class="sticker-list">
+                <span class="sticker" data-value="CROP1">P1</span>
+                <span class="sticker" data-value="CROP2">P2</span><br>
+                <span class="sticker" data-value="CROPTW">PTW</span>
+                <span class="sticker" data-value="CROSP">SP</span>
+                <span class="sticker" data-value="CROTOP1">TOP1</span>
+                <span class="sticker" data-value="CROTOP2">TOP2</span><br>
+                <span class="sticker" data-value="CRO1">CRO1</span>
+                <span class="sticker" data-value="CRO2">CRO2</span>
+                <span class="sticker" data-value="CRO3">CRO3</span>
+                <span class="sticker" data-value="CRO4">CRO4</span>
+                <span class="sticker" data-value="CRO5">CRO5</span>
+                <span class="sticker" data-value="CRO6">CRO6</span>
+                <span class="sticker" data-value="CRO7">CRO7</span>
+                <span class="sticker" data-value="CRO8">CRO8</span>
+                <span class="sticker" data-value="CRO9">CRO9</span>
+                <span class="sticker" data-value="CRO10">CRO10</span>
+                <span class="sticker" data-value="CRO11">CRO11</span>
+                <span class="sticker" data-value="CRO12">CRO12</span>
+                <span class="sticker" data-value="CRO13">CRO13</span>
+                <span class="sticker" data-value="CRO14">CRO14</span>
+                <span class="sticker" data-value="CRO15">CRO15</span>
+                <span class="sticker" data-value="CRO16">CRO16</span>
+                <span class="sticker" data-value="CRO17">CRO17</span>
+                <span class="sticker" data-value="CRO18">CRO18</span>
+                <span class="sticker" data-value="CRO19">CRO19</span>
+                <span class="sticker" data-value="CRO20">CRO20</span>
+                <span class="sticker" data-value="CRO21">CRO21</span>
+            </div>
+        </div>
+
+        <!-- Italy -->
+        <div class="country-section" id="Italy">
+            <h3>Italy</h3>
+            <div class="sticker-list">
+                <span class="sticker" data-value="ITAP1">P1</span>
+                <span class="sticker" data-value="ITAP2">P2</span><br>
+                <span class="sticker" data-value="ITAPTW">PTW</span>
+                <span class="sticker" data-value="ITASP">SP</span>
+                <span class="sticker" data-value="ITATOP1">TOP1</span>
+                <span class="sticker" data-value="ITATOP2">TOP2</span><br>
+                <span class="sticker" data-value="ITA1">ITA1</span>
+                <span class="sticker" data-value="ITA2">ITA2</span>
+                <span class="sticker" data-value="ITA3">ITA3</span>
+                <span class="sticker" data-value="ITA4">ITA4</span>
+                <span class="sticker" data-value="ITA5">ITA5</span>
+                <span class="sticker" data-value="ITA6">ITA6</span>
+                <span class="sticker" data-value="ITA7">ITA7</span>
+                <span class="sticker" data-value="ITA8">ITA8</span>
+                <span class="sticker" data-value="ITA9">ITA9</span>
+                <span class="sticker" data-value="ITA10">ITA10</span>
+                <span class="sticker" data-value="ITA11">ITA11</span>
+                <span class="sticker" data-value="ITA12">ITA12</span>
+                <span class="sticker" data-value="ITA13">ITA13</span>
+                <span class="sticker" data-value="ITA14">ITA14</span>
+                <span class="sticker" data-value="ITA15">ITA15</span>
+                <span class="sticker" data-value="ITA16">ITA16</span>
+                <span class="sticker" data-value="ITA17">ITA17</span>
+                <span class="sticker" data-value="ITA18">ITA18</span>
+                <span class="sticker" data-value="ITA19">ITA19</span>
+                <span class="sticker" data-value="ITA20">ITA20</span>
+                <span class="sticker" data-value="ITA21">ITA21</span>
+            </div>
+        </div>
+
+        <!-- Albania -->
+        <div class="country-section" id="Albania">
+            <h3>Albania</h3>
+            <div class="sticker-list">
+                <span class="sticker" data-value="ALBP1">P1</span>
+                <span class="sticker" data-value="ALBP2">P2</span><br>
+                <span class="sticker" data-value="ALBPTW">PTW</span>
+                <span class="sticker" data-value="ALBSP">SP</span>
+                <span class="sticker" data-value="ALBTOP1">TOP1</span>
+                <span class="sticker" data-value="ALBTOP2">TOP2</span><br>
+                <span class="sticker" data-value="ALB1">ALB1</span>
+                <span class="sticker" data-value="ALB2">ALB2</span>
+                <span class="sticker" data-value="ALB3">ALB3</span>
+                <span class="sticker" data-value="ALB4">ALB4</span>
+                <span class="sticker" data-value="ALB5">ALB5</span>
+                <span class="sticker" data-value="ALB6">ALB6</span>
+                <span class="sticker" data-value="ALB7">ALB7</span>
+                <span class="sticker" data-value="ALB8">ALB8</span>
+                <span class="sticker" data-value="ALB9">ALB9</span>
+                <span class="sticker" data-value="ALB10">ALB10</span>
+                <span class="sticker" data-value="ALB11">ALB11</span>
+                <span class="sticker" data-value="ALB12">ALB12</span>
+                <span class="sticker" data-value="ALB13">ALB13</span>
+                <span class="sticker" data-value="ALB14">ALB14</span>
+                <span class="sticker" data-value="ALB15">ALB15</span>
+                <span class="sticker" data-value="ALB16">ALB16</span>
+                <span class="sticker" data-value="ALB17">ALB17</span>
+                <span class="sticker" data-value="ALB18">ALB18</span>
+                <span class="sticker" data-value="ALB19">ALB19</span>
+                <span class="sticker" data-value="ALB20">ALB20</span>
+                <span class="sticker" data-value="ALB21">ALB21</span>
+            </div>
+        </div>
+    </div>
+
+        <!-- Group C -->
+    <h2 onclick="toggleVisibility('groupCContent')">Group C &#x25BC;</h2>
+    <div class="countries-container" id="groupCContent" style="display: none;">
+        <!-- Slovenia -->
+        <div class="country-section" id="Slovenia">
+            <h3>Slovenia</h3>
+            <div class="sticker-list">
+                <span class="sticker" data-value="SLOP1">P1</span>
+                <span class="sticker" data-value="SLOP2">P2</span><br>
+                <span class="sticker" data-value="SLOPTW">PTW</span>
+                <span class="sticker" data-value="SLOSP">SP</span>
+                <span class="sticker" data-value="SLOTOP1">TOP1</span>
+                <span class="sticker" data-value="SLOTOP2">TOP2</span><br>
+                <span class="sticker" data-value="SLO1">SLO1</span>
+                <span class="sticker" data-value="SLO2">SLO2</span>
+                <span class="sticker" data-value="SLO3">SLO3</span>
+                <span class="sticker" data-value="SLO4">SLO4</span>
+                <span class="sticker" data-value="SLO5">SLO5</span>
+                <span class="sticker" data-value="SLO6">SLO6</span>
+                <span class="sticker" data-value="SLO7">SLO7</span>
+                <span class="sticker" data-value="SLO8">SLO8</span>
+                <span class="sticker" data-value="SLO9">SLO9</span>
+                <span class="sticker" data-value="SLO10">SLO10</span>
+                <span class="sticker" data-value="SLO11">SLO11</span>
+                <span class="sticker" data-value="SLO12">SLO12</span>
+                <span class="sticker" data-value="SLO13">SLO13</span>
+                <span class="sticker" data-value="SLO14">SLO14</span>
+                <span class="sticker" data-value="SLO15">SLO15</span>
+                <span class="sticker" data-value="SLO16">SLO16</span>
+                <span class="sticker" data-value="SLO17">SLO17</span>
+                <span class="sticker" data-value="SLO18">SLO18</span>
+                <span class="sticker" data-value="SLO19">SLO19</span>
+                <span class="sticker" data-value="SLO20">SLO20</span>
+                <span class="sticker" data-value="SLO21">SLO21</span>
+            </div>
+        </div>
+
+        <!-- Denmark -->
+        <div class="country-section" id="Denmark">
+            <h3>Denmark</h3>
+            <div class="sticker-list">
+                <span class="sticker" data-value="DENP1">P1</span>
+                <span class="sticker" data-value="DENP2">P2</span><br>
+                <span class="sticker" data-value="DENPTW">PTW</span>
+                <span class="sticker" data-value="DENSP">SP</span>
+                <span class="sticker" data-value="DENTOP1">TOP1</span>
+                <span class="sticker" data-value="DENTOP2">TOP2</span><br>
+                <span class="sticker" data-value="DEN1">DEN1</span>
+                <span class="sticker" data-value="DEN2">DEN2</span>
+                <span class="sticker" data-value="DEN3">DEN3</span>
+                <span class="sticker" data-value="DEN4">DEN4</span>
+                <span class="sticker" data-value="DEN5">DEN5</span>
+                <span class="sticker" data-value="DEN6">DEN6</span>
+                <span class="sticker" data-value="DEN7">DEN7</span>
+                <span class="sticker" data-value="DEN8">DEN8</span>
+                <span class="sticker" data-value="DEN9">DEN9</span>
+                <span class="sticker" data-value="DEN10">DEN10</span>
+                <span class="sticker" data-value="DEN11">DEN11</span>
+                <span class="sticker" data-value="DEN12">DEN12</span>
+                <span class="sticker" data-value="DEN13">DEN13</span>
+                <span class="sticker" data-value="DEN14">DEN14</span>
+                <span class="sticker" data-value="DEN15">DEN15</span>
+                <span class="sticker" data-value="DEN16">DEN16</span>
+                <span class="sticker" data-value="DEN17">DEN17</span>
+                <span class="sticker" data-value="DEN18">DEN18</span>
+                <span class="sticker" data-value="DEN19">DEN19</span>
+                <span class="sticker" data-value="DEN20">DEN20</span>
+                <span class="sticker" data-value="DEN21">DEN21</span>
+            </div>
+        </div>
+
+        <!-- Serbia -->
+        <div class="country-section" id="Serbia">
+            <h3>Serbia</h3>
+            <div class="sticker-list">
+                <span class="sticker" data-value="SRBP1">P1</span>
+                <span class="sticker" data-value="SRBP2">P2</span><br>
+                <span class="sticker" data-value="SRBPTW">PTW</span>
+                <span class="sticker" data-value="SRBSP">SP</span>
+                <span class="sticker" data-value="SRBTOP1">TOP1</span>
+                <span class="sticker" data-value="SRBTOP2">TOP2</span><br>
+                <span class="sticker" data-value="SRB1">SRB1</span>
+                <span class="sticker" data-value="SRB2">SRB2</span>
+                <span class="sticker" data-value="SRB3">SRB3</span>
+                <span class="sticker" data-value="SRB4">SRB4</span>
+                <span class="sticker" data-value="SRB5">SRB5</span>
+                <span class="sticker" data-value="SRB6">SRB6</span>
+                <span class="sticker" data-value="SRB7">SRB7</span>
+                <span class="sticker" data-value="SRB8">SRB8</span>
+                <span class="sticker" data-value="SRB9">SRB9</span>
+                <span class="sticker" data-value="SRB10">SRB10</span>
+                <span class="sticker" data-value="SRB11">SRB11</span>
+                <span class="sticker" data-value="SRB12">SRB12</span>
+                <span class="sticker" data-value="SRB13">SRB13</span>
+                <span class="sticker" data-value="SRB14">SRB14</span>
+                <span class="sticker" data-value="SRB15">SRB15</span>
+                <span class="sticker" data-value="SRB16">SRB16</span>
+                <span class="sticker" data-value="SRB17">SRB17</span>
+                <span class="sticker" data-value="SRB18">SRB18</span>
+                <span class="sticker" data-value="SRB19">SRB19</span>
+                <span class="sticker" data-value="SRB20">SRB20</span>
+                <span class="sticker" data-value="SRB21">SRB21</span>
+            </div>
+        </div>
+
+        <!-- England -->
+        <div class="country-section" id="England">
+            <h3>England</h3>
+            <div class="sticker-list">
+                <span class="sticker" data-value="ENGP1">P1</span>
+                <span class="sticker" data-value="ENGP2">P2</span><br>
+                <span class="sticker" data-value="ENGPTW">PTW</span>
+                <span class="sticker" data-value="ENGSP">SP</span>
+                <span class="sticker" data-value="ENGTOP1">TOP1</span>
+                <span class="sticker" data-value="ENGTOP2">TOP2</span><br>
+                <span class="sticker" data-value="ENG1">ENG1</span>
+                <span class="sticker" data-value="ENG2">ENG2</span>
+                <span class="sticker" data-value="ENG3">ENG3</span>
+                <span class="sticker" data-value="ENG4">ENG4</span>
+                <span class="sticker" data-value="ENG5">ENG5</span>
+                <span class="sticker" data-value="ENG6">ENG6</span>
+                <span class="sticker" data-value="ENG7">ENG7</span>
+                <span class="sticker" data-value="ENG8">ENG8</span>
+                <span class="sticker" data-value="ENG9">ENG9</span>
+                <span class="sticker" data-value="ENG10">ENG10</span>
+                <span class="sticker" data-value="ENG11">ENG11</span>
+                <span class="sticker" data-value="ENG12">ENG12</span>
+                <span class="sticker" data-value="ENG13">ENG13</span>
+                <span class="sticker" data-value="ENG14">ENG14</span>
+                <span class="sticker" data-value="ENG15">ENG15</span>
+                <span class="sticker" data-value="ENG16">ENG16</span>
+                <span class="sticker" data-value="ENG17">ENG17</span>
+                <span class="sticker" data-value="ENG18">ENG18</span>
+                <span class="sticker" data-value="ENG19">ENG19</span>
+                <span class="sticker" data-value="ENG20">ENG20</span>
+                <span class="sticker" data-value="ENG21">ENG21</span>
+            </div>
+        </div>
+    </div>
+
+        <!-- Group D -->
+    <h2 onclick="toggleVisibility('groupDContent')">Group D &#x25BC;</h2>
+    <div class="countries-container" id="groupDContent" style="display: none;">
+        <!-- Playoff -->
+        <div class="country-section" id="PlayoffPOL">
+            <h3>Playoff: Poland</h3>
+            <div class="sticker-list">
+                <span class="sticker" data-value="POLSP">SP</span></br>
+                <span class="sticker" data-value="POL1">POL1</span>
+                <span class="sticker" data-value="POL2">POL2</span>
+                <span class="sticker" data-value="POL3">POL3</span>
+                <span class="sticker" data-value="POL4">POL4</span>
+                <span class="sticker" data-value="POL5">POL5</span>
+                <span class="sticker" data-value="POL6">POL6</span>
+                <span class="sticker" data-value="POL7">POL7</span>
+                <span class="sticker" data-value="POL8">POL8</span>
+                <span class="sticker" data-value="POL9">POL9</span>
+                <span class="sticker" data-value="POL10">POL10</span>
+                <span class="sticker" data-value="POL11">POL11</span>
+                <span class="sticker" data-value="POL12">POL12</span>
+                <span class="sticker" data-value="POL13">POL13</span>
+                <span class="sticker" data-value="POL14">POL14</span>
+                <span class="sticker" data-value="POL15">POL15</span>
+            </div>
+        </div>
+        <div class="country-section" id="PlayoffEST">
+            <h3>Playoff: Estonia</h3>
+            <div class="sticker-list">
+                <span class="sticker" data-value="ESTSP">SP</span></br>
+                <span class="sticker" data-value="EST1">EST1</span>
+                <span class="sticker" data-value="EST2">EST2</span>
+                <span class="sticker" data-value="EST3">EST3</span>
+                <span class="sticker" data-value="EST4">EST4</span>
+                <span class="sticker" data-value="EST5">EST5</span>
+                <span class="sticker" data-value="EST6">EST6</span>
+                <span class="sticker" data-value="EST7">EST7</span>
+                <span class="sticker" data-value="EST8">EST8</span>
+                <span class="sticker" data-value="EST9">EST9</span>
+                <span class="sticker" data-value="EST10">EST10</span>
+                <span class="sticker" data-value="EST11">EST11</span>
+                <span class="sticker" data-value="EST12">EST12</span>
+                <span class="sticker" data-value="EST13">EST13</span>
+                <span class="sticker" data-value="EST14">EST14</span>
+                <span class="sticker" data-value="EST15">EST15</span>
+            </div>
+        </div>
+        <div class="country-section" id="PlayoffWAL">
+            <h3>Playoff: Wales</h3>
+            <div class="sticker-list">
+                <span class="sticker" data-value="WALSP">SP</span></br>
+                <span class="sticker" data-value="WAL1">WAL1</span>
+                <span class="sticker" data-value="WAL2">WAL2</span>
+                <span class="sticker" data-value="WAL3">WAL3</span>
+                <span class="sticker" data-value="WAL4">WAL4</span>
+                <span class="sticker" data-value="WAL5">WAL5</span>
+                <span class="sticker" data-value="WAL6">WAL6</span>
+                <span class="sticker" data-value="WAL7">WAL7</span>
+                <span class="sticker" data-value="WAL8">WAL8</span>
+                <span class="sticker" data-value="WAL9">WAL9</span>
+                <span class="sticker" data-value="WAL10">WAL10</span>
+                <span class="sticker" data-value="WAL11">WAL11</span>
+                <span class="sticker" data-value="WAL12">WAL12</span>
+                <span class="sticker" data-value="WAL13">WAL13</span>
+                <span class="sticker" data-value="WAL14">WAL14</span>
+                <span class="sticker" data-value="WAL15">WAL15</span>
+            </div>
+        </div>
+        <div class="country-section" id="PlayoffFIN">
+            <h3>Playoff: Finland</h3>
+            <div class="sticker-list">
+                <span class="sticker" data-value="FINSP">SP</span></br>
+                <span class="sticker" data-value="FIN1">FIN1</span>
+                <span class="sticker" data-value="FIN2">FIN2</span>
+                <span class="sticker" data-value="FIN3">FIN3</span>
+                <span class="sticker" data-value="FIN4">FIN4</span>
+                <span class="sticker" data-value="FIN5">FIN5</span>
+                <span class="sticker" data-value="FIN6">FIN6</span>
+                <span class="sticker" data-value="FIN7">FIN7</span>
+                <span class="sticker" data-value="FIN8">FIN8</span>
+                <span class="sticker" data-value="FIN9">FIN9</span>
+                <span class="sticker" data-value="FIN10">FIN10</span>
+                <span class="sticker" data-value="FIN11">FIN11</span>
+                <span class="sticker" data-value="FIN12">FIN12</span>
+                <span class="sticker" data-value="FIN13">FIN13</span>
+                <span class="sticker" data-value="FIN14">FIN14</span>
+                <span class="sticker" data-value="FIN15">FIN15</span>
+            </div>
+        </div>
+
+        <!-- Netherlands -->
+        <div class="country-section" id="Netherlands">
+            <h3>Netherlands</h3>
+            <div class="sticker-list">
+                <span class="sticker" data-value="NEDP1">P1</span>
+                <span class="sticker" data-value="NEDP2">P2</span><br>
+                <span class="sticker" data-value="NEDPTW">PTW</span>
+                <span class="sticker" data-value="NEDSP">SP</span>
+                <span class="sticker" data-value="NEDTOP1">TOP1</span>
+                <span class="sticker" data-value="NEDTOP2">TOP2</span><br>
+                <span class="sticker" data-value="NED1">NED1</span>
+                <span class="sticker" data-value="NED2">NED2</span>
+                <span class="sticker" data-value="NED3">NED3</span>
+                <span class="sticker" data-value="NED4">NED4</span>
+                <span class="sticker" data-value="NED5">NED5</span>
+                <span class="sticker" data-value="NED6">NED6</span>
+                <span class="sticker" data-value="NED7">NED7</span>
+                <span class="sticker" data-value="NED8">NED8</span>
+                <span class="sticker" data-value="NED9">NED9</span>
+                <span class="sticker" data-value="NED10">NED10</span>
+                <span class="sticker" data-value="NED11">NED11</span>
+                <span class="sticker" data-value="NED12">NED12</span>
+                <span class="sticker" data-value="NED13">NED13</span>
+                <span class="sticker" data-value="NED14">NED14</span>
+                <span class="sticker" data-value="NED15">NED15</span>
+                <span class="sticker" data-value="NED16">NED16</span>
+                <span class="sticker" data-value="NED17">NED17</span>
+                <span class="sticker" data-value="NED18">NED18</span>
+                <span class="sticker" data-value="NED19">NED19</span>
+                <span class="sticker" data-value="NED20">NED20</span>
+                <span class="sticker" data-value="NED21">NED21</span>
+            </div>
+        </div>
+
+        <!-- Austria -->
+        <div class="country-section" id="Austria">
+            <h3>Austria</h3>
+            <div class="sticker-list">
+                <span class="sticker" data-value="AUTP1">P1</span>
+                <span class="sticker" data-value="AUTP2">P2</span><br>
+                <span class="sticker" data-value="AUTPTW">PTW</span>
+                <span class="sticker" data-value="AUTSP">SP</span>
+                <span class="sticker" data-value="AUTTOP1">TOP1</span>
+                <span class="sticker" data-value="AUTTOP2">TOP2</span><br>
+                <span class="sticker" data-value="AUT1">AUT1</span>
+                <span class="sticker" data-value="AUT2">AUT2</span>
+                <span class="sticker" data-value="AUT3">AUT3</span>
+                <span class="sticker" data-value="AUT4">AUT4</span>
+                <span class="sticker" data-value="AUT5">AUT5</span>
+                <span class="sticker" data-value="AUT6">AUT6</span>
+                <span class="sticker" data-value="AUT7">AUT7</span>
+                <span class="sticker" data-value="AUT8">AUT8</span>
+                <span class="sticker" data-value="AUT9">AUT9</span>
+                <span class="sticker" data-value="AUT10">AUT10</span>
+                <span class="sticker" data-value="AUT11">AUT11</span>
+                <span class="sticker" data-value="AUT12">AUT12</span>
+                <span class="sticker" data-value="AUT13">AUT13</span>
+                <span class="sticker" data-value="AUT14">AUT14</span>
+                <span class="sticker" data-value="AUT15">AUT15</span>
+                <span class="sticker" data-value="AUT16">AUT16</span>
+                <span class="sticker" data-value="AUT17">AUT17</span>
+                <span class="sticker" data-value="AUT18">AUT18</span>
+                <span class="sticker" data-value="AUT19">AUT19</span>
+                <span class="sticker" data-value="AUT20">AUT20</span>
+                <span class="sticker" data-value="AUT21">AUT21</span>
+            </div>
+        </div>
+
+        <!-- France -->
+        <div class="country-section" id="France">
+            <h3>France</h3>
+            <div class="sticker-list">
+                <span class="sticker" data-value="FRAP1">P1</span>
+                <span class="sticker" data-value="FRAP2">P2</span><br>
+                <span class="sticker" data-value="FRAPTW">PTW</span>
+                <span class="sticker" data-value="FRASP">SP</span>
+                <span class="sticker" data-value="FRATOP1">TOP1</span>
+                <span class="sticker" data-value="FRATOP2">TOP2</span><br>
+                <span class="sticker" data-value="FRA1">FRA1</span>
+                <span class="sticker" data-value="FRA2">FRA2</span>
+                <span class="sticker" data-value="FRA3">FRA3</span>
+                <span class="sticker" data-value="FRA4">FRA4</span>
+                <span class="sticker" data-value="FRA5">FRA5</span>
+                <span class="sticker" data-value="FRA6">FRA6</span>
+                <span class="sticker" data-value="FRA7">FRA7</span>
+                <span class="sticker" data-value="FRA8">FRA8</span>
+                <span class="sticker" data-value="FRA9">FRA9</span>
+                <span class="sticker" data-value="FRA10">FRA10</span>
+                <span class="sticker" data-value="FRA11">FRA11</span>
+                <span class="sticker" data-value="FRA12">FRA12</span>
+                <span class="sticker" data-value="FRA13">FRA13</span>
+                <span class="sticker" data-value="FRA14">FRA14</span>
+                <span class="sticker" data-value="FRA15">FRA15</span>
+                <span class="sticker" data-value="FRA16">FRA16</span>
+                <span class="sticker" data-value="FRA17">FRA17</span>
+                <span class="sticker" data-value="FRA18">FRA18</span>
+                <span class="sticker" data-value="FRA19">FRA19</span>
+                <span class="sticker" data-value="FRA20">FRA20</span>
+                <span class="sticker" data-value="FRA21">FRA21</span>
+            </div>
+        </div>
+    </div>
+
+        <!-- Group E -->
+    <h2 onclick="toggleVisibility('groupEContent')">Group E &#x25BC;</h2>
+    <div class="countries-container" id="groupEContent" style="display: none;">
+        <!-- Belgium -->
+        <div class="country-section" id="Belgium">
+            <h3>Belgium</h3>
+            <div class="sticker-list">
+                <span class="sticker" data-value="BELP1">P1</span>
+                <span class="sticker" data-value="BELP2">P2</span><br>
+                <span class="sticker" data-value="BELPTW">PTW</span>
+                <span class="sticker" data-value="BELSP">SP</span>
+                <span class="sticker" data-value="BELTOP1">TOP1</span>
+                <span class="sticker" data-value="BELTOP2">TOP2</span><br>
+                <span class="sticker" data-value="BEL1">BEL1</span>
+                <span class="sticker" data-value="BEL2">BEL2</span>
+                <span class="sticker" data-value="BEL3">BEL3</span>
+                <span class="sticker" data-value="BEL4">BEL4</span>
+                <span class="sticker" data-value="BEL5">BEL5</span>
+                <span class="sticker" data-value="BEL6">BEL6</span>
+                <span class="sticker" data-value="BEL7">BEL7</span>
+                <span class="sticker" data-value="BEL8">BEL8</span>
+                <span class="sticker" data-value="BEL9">BEL9</span>
+                <span class="sticker" data-value="BEL10">BEL10</span>
+                <span class="sticker" data-value="BEL11">BEL11</span>
+                <span class="sticker" data-value="BEL12">BEL12</span>
+                <span class="sticker" data-value="BEL13">BEL13</span>
+                <span class="sticker" data-value="BEL14">BEL14</span>
+                <span class="sticker" data-value="BEL15">BEL15</span>
+                <span class="sticker" data-value="BEL16">BEL16</span>
+                <span class="sticker" data-value="BEL17">BEL17</span>
+                <span class="sticker" data-value="BEL18">BEL18</span>
+                <span class="sticker" data-value="BEL19">BEL19</span>
+                <span class="sticker" data-value="BEL20">BEL20</span>
+                <span class="sticker" data-value="BEL21">BEL21</span>
+            </div>
+        </div>
+
+        <!-- Slovakia -->
+        <div class="country-section" id="Slovakia">
+            <h3>Slovakia</h3>
+            <div class="sticker-list">
+                <span class="sticker" data-value="SVKP1">P1</span>
+                <span class="sticker" data-value="SVKP2">P2</span><br>
+                <span class="sticker" data-value="SVKPTW">PTW</span>
+                <span class="sticker" data-value="SVKSP">SP</span>
+                <span class="sticker" data-value="SVKTOP1">TOP1</span>
+                <span class="sticker" data-value="SVKTOP2">TOP2</span><br>
+                <span class="sticker" data-value="SVK1">SVK1</span>
+                <span class="sticker" data-value="SVK2">SVK2</span>
+                <span class="sticker" data-value="SVK3">SVK3</span>
+                <span class="sticker" data-value="SVK4">SVK4</span>
+                <span class="sticker" data-value="SVK5">SVK5</span>
+                <span class="sticker" data-value="SVK6">SVK6</span>
+                <span class="sticker" data-value="SVK7">SVK7</span>
+                <span class="sticker" data-value="SVK8">SVK8</span>
+                <span class="sticker" data-value="SVK9">SVK9</span>
+                <span class="sticker" data-value="SVK10">SVK10</span>
+                <span class="sticker" data-value="SVK11">SVK11</span>
+                <span class="sticker" data-value="SVK12">SVK12</span>
+                <span class="sticker" data-value="SVK13">SVK13</span>
+                <span class="sticker" data-value="SVK14">SVK14</span>
+                <span class="sticker" data-value="SVK15">SVK15</span>
+                <span class="sticker" data-value="SVK16">SVK16</span>
+                <span class="sticker" data-value="SVK17">SVK17</span>
+                <span class="sticker" data-value="SVK18">SVK18</span>
+                <span class="sticker" data-value="SVK19">SVK19</span>
+                <span class="sticker" data-value="SVK20">SVK20</span>
+                <span class="sticker" data-value="SVK21">SVK21</span>
+            </div>
+        </div>
+
+        <!-- Romania -->
+        <div class="country-section" id="Romania">
+            <h3>Romania</h3>
+            <div class="sticker-list">
+                <span class="sticker" data-value="ROMP1">P1</span>
+                <span class="sticker" data-value="ROMP2">P2</span><br>
+                <span class="sticker" data-value="ROMPTW">PTW</span>
+                <span class="sticker" data-value="ROMSP">SP</span>
+                <span class="sticker" data-value="ROMTOP1">TOP1</span>
+                <span class="sticker" data-value="ROMTOP2">TOP2</span><br>
+                <span class="sticker" data-value="ROM1">ROM1</span>
+                <span class="sticker" data-value="ROM2">ROM2</span>
+                <span class="sticker" data-value="ROM3">ROM3</span>
+                <span class="sticker" data-value="ROM4">ROM4</span>
+                <span class="sticker" data-value="ROM5">ROM5</span>
+                <span class="sticker" data-value="ROM6">ROM6</span>
+                <span class="sticker" data-value="ROM7">ROM7</span>
+                <span class="sticker" data-value="ROM8">ROM8</span>
+                <span class="sticker" data-value="ROM9">ROM9</span>
+                <span class="sticker" data-value="ROM10">ROM10</span>
+                <span class="sticker" data-value="ROM11">ROM11</span>
+                <span class="sticker" data-value="ROM12">ROM12</span>
+                <span class="sticker" data-value="ROM13">ROM13</span>
+                <span class="sticker" data-value="ROM14">ROM14</span>
+                <span class="sticker" data-value="ROM15">ROM15</span>
+                <span class="sticker" data-value="ROM16">ROM16</span>
+                <span class="sticker" data-value="ROM17">ROM17</span>
+                <span class="sticker" data-value="ROM18">ROM18</span>
+                <span class="sticker" data-value="ROM19">ROM19</span>
+                <span class="sticker" data-value="ROM20">ROM20</span>
+                <span class="sticker" data-value="ROM21">ROM21</span>
+            </div>
+        </div>
+
+        <!-- Playoff  -->
+        <div class="playoff-section">
+            <div class="country-section" id="PlayoffISR">
+                <h3>Playoff: Israel</h3>
+                <div class="sticker-list">
+                    <span class="sticker" data-value="ISRSP">SP</span></br>
+                    <span class="sticker" data-value="ISR1">ISR1</span>
+                    <span class="sticker" data-value="ISR2">ISR2</span>
+                    <span class="sticker" data-value="ISR3">ISR3</span>
+                    <span class="sticker" data-value="ISR4">ISR4</span>
+                    <span class="sticker" data-value="ISR5">ISR5</span>
+                    <span class="sticker" data-value="ISR6">ISR6</span>
+                    <span class="sticker" data-value="ISR7">ISR7</span>
+                    <span class="sticker" data-value="ISR8">ISR8</span>
+                    <span class="sticker" data-value="ISR9">ISR9</span>
+                    <span class="sticker" data-value="ISR10">ISR10</span>
+                    <span class="sticker" data-value="ISR11">ISR11</span>
+                    <span class="sticker" data-value="ISR12">ISR12</span>
+                    <span class="sticker" data-value="ISR13">ISR13</span>
+                    <span class="sticker" data-value="ISR14">ISR14</span>
+                    <span class="sticker" data-value="ISR15">ISR15</span>
+                </div>
+            </div>
+            <div class="country-section" id="PlayoffICE">
+                <h3>Playoff: Iceland</h3>
+                <div class="sticker-list">
+                    <span class="sticker" data-value="ICESP">SP</span></br>
+                    <span class="sticker" data-value="ICE1">ICE1</span>
+                    <span class="sticker" data-value="ICE2">ICE2</span>
+                    <span class="sticker" data-value="ICE3">ICE3</span>
+                    <span class="sticker" data-value="ICE4">ICE4</span>
+                    <span class="sticker" data-value="ICE5">ICE5</span>
+                    <span class="sticker" data-value="ICE6">ICE6</span>
+                    <span class="sticker" data-value="ICE7">ICE7</span>
+                    <span class="sticker" data-value="ICE8">ICE8</span>
+                    <span class="sticker" data-value="ICE9">ICE9</span>
+                    <span class="sticker" data-value="ICE10">ICE10</span>
+                    <span class="sticker" data-value="ICE11">ICE11</span>
+                    <span class="sticker" data-value="ICE12">ICE12</span>
+                    <span class="sticker" data-value="ICE13">ICE13</span>
+                    <span class="sticker" data-value="ICE14">ICE14</span>
+                    <span class="sticker" data-value="ICE15">ICE15</span>
+                </div>
+            </div>
+            <div class="country-section" id="PlayoffBIH">
+                <h3>Playoff: Bosnia and Herzegovina</h3>
+                <div class="sticker-list">
+                    <span class="sticker" data-value="BIHSP">SP</span></br>
+                    <span class="sticker" data-value="BIH1">BIH1</span>
+                    <span class="sticker" data-value="BIH2">BIH2</span>
+                    <span class="sticker" data-value="BIH3">BIH3</span>
+                    <span class="sticker" data-value="BIH4">BIH4</span>
+                    <span class="sticker" data-value="BIH5">BIH5</span>
+                    <span class="sticker" data-value="BIH6">BIH6</span>
+                    <span class="sticker" data-value="BIH7">BIH7</span>
+                    <span class="sticker" data-value="BIH8">BIH8</span>
+                    <span class="sticker" data-value="BIH9">BIH9</span>
+                    <span class="sticker" data-value="BIH10">BIH10</span>
+                    <span class="sticker" data-value="BIH11">BIH11</span>
+                    <span class="sticker" data-value="BIH12">BIH12</span>
+                    <span class="sticker" data-value="BIH13">BIH13</span>
+                    <span class="sticker" data-value="BIH14">BIH14</span>
+                    <span class="sticker" data-value="BIH15">BIH15</span>
+                </div>
+            </div>
+            <div class="country-section" id="PlayoffUKR">
+                <h3>Playoff: Ukraine</h3>
+                <div class="sticker-list">
+                    <span class="sticker" data-value="UKRSP">SP</span></br>
+                    <span class="sticker" data-value="UKR1">UKR1</span>
+                    <span class="sticker" data-value="UKR2">UKR2</span>
+                    <span class="sticker" data-value="UKR3">UKR3</span>
+                    <span class="sticker" data-value="UKR4">UKR4</span>
+                    <span class="sticker" data-value="UKR5">UKR5</span>
+                    <span class="sticker" data-value="UKR6">UKR6</span>
+                    <span class="sticker" data-value="UKR7">UKR7</span>
+                    <span class="sticker" data-value="UKR8">UKR8</span>
+                    <span class="sticker" data-value="UKR9">UKR9</span>
+                    <span class="sticker" data-value="UKR10">UKR10</span>
+                    <span class="sticker" data-value="UKR11">UKR11</span>
+                    <span class="sticker" data-value="UKR12">UKR12</span>
+                    <span class="sticker" data-value="UKR13">UKR13</span>
+                    <span class="sticker" data-value="UKR14">UKR14</span>
+                    <span class="sticker" data-value="UKR15">UKR15</span>
+                </div>
+        </div>
+    </div>
+
+    </div>
+
+    <!-- Group F -->
+    <h2 onclick="toggleVisibility('groupFContent')">Group F &#x25BC;</h2>
+    <div class="countries-container" id="groupFContent" style="display: none;">
+        <!-- Turkey -->
+        <div class="country-section" id="Turkey">
+            <h3>Turkey</h3>
+            <div class="sticker-list">
+                <span class="sticker" data-value="TURP1">P1</span>
+                <span class="sticker" data-value="TURP2">P2</span><br>
+                <span class="sticker" data-value="TURPTW">PTW</span>
+                <span class="sticker" data-value="TURSP">SP</span>
+                <span class="sticker" data-value="TURTOP1">TOP1</span>
+                <span class="sticker" data-value="TURTOP2">TOP2</span><br>
+                <span class="sticker" data-value="TUR1">TUR1</span>
+                <span class="sticker" data-value="TUR2">TUR2</span>
+                <span class="sticker" data-value="TUR3">TUR3</span>
+                <span class="sticker" data-value="TUR4">TUR4</span>
+                <span class="sticker" data-value="TUR5">TUR5</span>
+                <span class="sticker" data-value="TUR6">TUR6</span>
+                <span class="sticker" data-value="TUR7">TUR7</span>
+                <span class="sticker" data-value="TUR8">TUR8</span>
+                <span class="sticker" data-value="TUR9">TUR9</span>
+                <span class="sticker" data-value="TUR10">TUR10</span>
+                <span class="sticker" data-value="TUR11">TUR11</span>
+                <span class="sticker" data-value="TUR12">TUR12</span>
+                <span class="sticker" data-value="TUR13">TUR13</span>
+                <span class="sticker" data-value="TUR14">TUR14</span>
+                <span class="sticker" data-value="TUR15">TUR15</span>
+                <span class="sticker" data-value="TUR16">TUR16</span>
+                <span class="sticker" data-value="TUR17">TUR17</span>
+                <span class="sticker" data-value="TUR18">TUR18</span>
+                <span class="sticker" data-value="TUR19">TUR19</span>
+                <span class="sticker" data-value="TUR20">TUR20</span>
+                <span class="sticker" data-value="TUR21">TUR21</span>
+            </div>
+        </div>
+    
+
+        <!-- Playoff  -->
+        <div class="playoff-section">
+            <div class="country-section" id="PlayoffGEO">
+                <h3>Playoff: Georgia</h3>
+                <div class="sticker-list">
+                    <span class="sticker" data-value="GEOSP">SP</span></br>
+                    <span class="sticker" data-value="GEO1">GEO1</span>
+                    <span class="sticker" data-value="GEO2">GEO2</span>
+                    <span class="sticker" data-value="GEO3">GEO3</span>
+                    <span class="sticker" data-value="GEO4">GEO4</span>
+                    <span class="sticker" data-value="GEO5">GEO5</span>
+                    <span class="sticker" data-value="GEO6">GEO6</span>
+                    <span class="sticker" data-value="GEO7">GEO7</span>
+                    <span class="sticker" data-value="GEO8">GEO8</span>
+                    <span class="sticker" data-value="GEO9">GEO9</span>
+                    <span class="sticker" data-value="GEO10">GEO10</span>
+                    <span class="sticker" data-value="GEO11">GEO11</span>
+                    <span class="sticker" data-value="GEO12">GEO12</span>
+                    <span class="sticker" data-value="GEO13">GEO13</span>
+                    <span class="sticker" data-value="GEO14">GEO14</span>
+                    <span class="sticker" data-value="GEO15">GEO15</span>
+                </div>
+            </div>
+            <div class="country-section" id="PlayoffLUX">
+                <h3>Playoff: Luxembourg</h3>
+                <div class="sticker-list">
+                    <span class="sticker" data-value="LUXSP">SP</span></br>
+                    <span class="sticker" data-value="LUX1">LUX1</span>
+                    <span class="sticker" data-value="LUX2">LUX2</span>
+                    <span class="sticker" data-value="LUX3">LUX3</span>
+                    <span class="sticker" data-value="LUX4">LUX4</span>
+                    <span class="sticker" data-value="LUX5">LUX5</span>
+                    <span class="sticker" data-value="LUX6">LUX6</span>
+                    <span class="sticker" data-value="LUX7">LUX7</span>
+                    <span class="sticker" data-value="LUX8">LUX8</span>
+                    <span class="sticker" data-value="LUX9">LUX9</span>
+                    <span class="sticker" data-value="LUX10">LUX10</span>
+                    <span class="sticker" data-value="LUX11">LUX11</span>
+                    <span class="sticker" data-value="LUX12">LUX12</span>
+                    <span class="sticker" data-value="LUX13">LUX13</span>
+                    <span class="sticker" data-value="LUX14">LUX14</span>
+                    <span class="sticker" data-value="LUX15">LUX15</span>
+                </div>
+            </div>
+            <div class="country-section" id="PlayoffGRE">
+                <h3>Playoff: Greece</h3>
+                <div class="sticker-list">
+                    <span class="sticker" data-value="GRESP">SP</span></br>
+                    <span class="sticker" data-value="GRE1">GRE1</span>
+                    <span class="sticker" data-value="GRE2">GRE2</span>
+                    <span class="sticker" data-value="GRE3">GRE3</span>
+                    <span class="sticker" data-value="GRE4">GRE4</span>
+                    <span class="sticker" data-value="GRE5">GRE5</span>
+                    <span class="sticker" data-value="GRE6">GRE6</span>
+                    <span class="sticker" data-value="GRE7">GRE7</span>
+                    <span class="sticker" data-value="GRE8">GRE8</span>
+                    <span class="sticker" data-value="GRE9">GRE9</span>
+                    <span class="sticker" data-value="GRE10">GRE10</span>
+                    <span class="sticker" data-value="GRE11">GRE11</span>
+                    <span class="sticker" data-value="GRE12">GRE12</span>
+                    <span class="sticker" data-value="GRE13">GRE13</span>
+                    <span class="sticker" data-value="GRE14">GRE14</span>
+                    <span class="sticker" data-value="GRE15">GRE15</span>
+                </div>
+            </div>
+            <div class="country-section" id="PlayoffKAZ">
+                <h3>Playoff: Kazakhstan</h3>
+                <div class="sticker-list">
+                    <span class="sticker" data-value="KAZSP">SP</span></br>
+                    <span class="sticker" data-value="KAZ1">KAZ1</span>
+                    <span class="sticker" data-value="KAZ2">KAZ2</span>
+                    <span class="sticker" data-value="KAZ3">KAZ3</span>
+                    <span class="sticker" data-value="KAZ4">KAZ4</span>
+                    <span class="sticker" data-value="KAZ5">KAZ5</span>
+                    <span class="sticker" data-value="KAZ6">KAZ6</span>
+                    <span class="sticker" data-value="KAZ7">KAZ7</span>
+                    <span class="sticker" data-value="KAZ8">KAZ8</span>
+                    <span class="sticker" data-value="KAZ9">KAZ9</span>
+                    <span class="sticker" data-value="KAZ10">KAZ10</span>
+                    <span class="sticker" data-value="KAZ11">KAZ11</span>
+                    <span class="sticker" data-value="KAZ12">KAZ12</span>
+                    <span class="sticker" data-value="KAZ13">KAZ13</span>
+                    <span class="sticker" data-value="KAZ14">KAZ14</span>
+                    <span class="sticker" data-value="KAZ15">KAZ15</span>
+                </div>
+            </div>
+
+        <!-- Portugal -->
+        <div class="country-section" id="Portugal">
+            <h3>Portugal</h3>
+            <div class="sticker-list">
+                <span class="sticker" data-value="PORP1">P1</span>
+                <span class="sticker" data-value="PORP2">P2</span><br>
+                <span class="sticker" data-value="PORPTW">PTW</span>
+                <span class="sticker" data-value="PORSP">SP</span>
+                <span class="sticker" data-value="PORTOP1">TOP1</span>
+                <span class="sticker" data-value="PORTOP2">TOP2</span><br>
+                <span class="sticker" data-value="POR1">POR1</span>
+                <span class="sticker" data-value="POR2">POR2</span>
+                <span class="sticker" data-value="POR3">POR3</span>
+                <span class="sticker" data-value="POR4">POR4</span>
+                <span class="sticker" data-value="POR5">POR5</span>
+                <span class="sticker" data-value="POR6">POR6</span>
+                <span class="sticker" data-value="POR7">POR7</span>
+                <span class="sticker" data-value="POR8">POR8</span>
+                <span class="sticker" data-value="POR9">POR9</span>
+                <span class="sticker" data-value="POR10">POR10</span>
+                <span class="sticker" data-value="POR11">POR11</span>
+                <span class="sticker" data-value="POR12">POR12</span>
+                <span class="sticker" data-value="POR13">POR13</span>
+                <span class="sticker" data-value="POR14">POR14</span>
+                <span class="sticker" data-value="POR15">POR15</span>
+                <span class="sticker" data-value="POR16">POR16</span>
+                <span class="sticker" data-value="POR17">POR17</span>
+                <span class="sticker" data-value="POR18">POR18</span>
+                <span class="sticker" data-value="POR19">POR19</span>
+                <span class="sticker" data-value="POR20">POR20</span>
+                <span class="sticker" data-value="POR21">POR21</span>
+            </div>
+        </div>
+
+        <!-- Romania -->
+        <div class="country-section" id="Czechia">
+            <h3>Czech Republic</h3>
+            <div class="sticker-list">
+                <span class="sticker" data-value="CZEP1">P1</span>
+                <span class="sticker" data-value="CZEP2">P2</span><br>
+                <span class="sticker" data-value="CZEPTW">PTW</span>
+                <span class="sticker" data-value="CZESP">SP</span>
+                <span class="sticker" data-value="CZETOP1">TOP1</span>
+                <span class="sticker" data-value="CZETOP2">TOP2</span><br>
+                <span class="sticker" data-value="CZE1">CZE1</span>
+                <span class="sticker" data-value="CZE2">CZE2</span>
+                <span class="sticker" data-value="CZE3">CZE3</span>
+                <span class="sticker" data-value="CZE4">CZE4</span>
+                <span class="sticker" data-value="CZE5">CZE5</span>
+                <span class="sticker" data-value="CZE6">CZE6</span>
+                <span class="sticker" data-value="CZE7">CZE7</span>
+                <span class="sticker" data-value="CZE8">CZE8</span>
+                <span class="sticker" data-value="CZE9">CZE9</span>
+                <span class="sticker" data-value="CZE10">CZE10</span>
+                <span class="sticker" data-value="CZE11">CZE11</span>
+                <span class="sticker" data-value="CZE12">CZE12</span>
+                <span class="sticker" data-value="CZE13">CZE13</span>
+                <span class="sticker" data-value="CZE14">CZE14</span>
+                <span class="sticker" data-value="CZE15">CZE15</span>
+                <span class="sticker" data-value="CZE16">CZE16</span>
+                <span class="sticker" data-value="CZE17">CZE17</span>
+                <span class="sticker" data-value="CZE18">CZE18</span>
+                <span class="sticker" data-value="CZE19">CZE19</span>
+                <span class="sticker" data-value="CZE20">CZE20</span>
+                <span class="sticker" data-value="CZE21">CZE21</span>
+            </div>
+        </div>
+
+        
+    </div>
+
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+<footer>
+    <div class="container-fluid">
+        <p class="copyright">2024 © Design by Luka</p>
+    </div>
+</footer>
+
+</html>
